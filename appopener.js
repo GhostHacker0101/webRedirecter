@@ -6,7 +6,7 @@ function isMobileDevice() {
 document.getElementById("button").addEventListener("click", function(event) {
 if (isMobileDevice()) {
     var youtubeVideoID = '@TrendingBeauties';
-    var youtubeAppURL = 'vnd.youtube://watch?v=' + youtubeVideoID;
+    var youtubeAppURL = 'vnd.youtube://www.youtube.com/channel/' + youtubeVideoID;
     var fallbackURL = 'https://www.youtube.com/watch?v=' + youtubeVideoID;
     window.location.href = youtubeAppURL;
 }
